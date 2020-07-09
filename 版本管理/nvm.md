@@ -71,21 +71,21 @@ nvm install v14.5.0
 
 默认是从官网下载node,速度太慢,nvm同样可以配置淘宝源
 
-1. 找到 nvm 安装目录，可以在 cmd 窗口输入如下命令查看 nvm 的**安装目录**
+1、找到 nvm 安装目录，可以在 cmd 窗口输入如下命令查看 nvm 的**安装目录**
 
    ```
    nvm root
    ```
 
-   ​	![](./img/nvm/5.png)
+   ![](./img/nvm/5.png)
 
    比如我的是C:\Users\Administrator\AppData\Roaming\nvm
 
-2. 找到**setting.txt**文件
+2、 找到**setting.txt**文件
 
    ![](./img/nvm/6.png)
 
-3. 在 **settings.txt** 文件中最后一行添加如下两行配置
+3、 在 **settings.txt** 文件中最后一行添加如下两行配置
 
    ```
    node_mirror: https://npm.taobao.org/mirrors/node/
@@ -98,7 +98,7 @@ nvm install v14.5.0
 
    ![](./img/nvm/7.png)
 
-4. 保存
+4、 保存
 
 ## 三、其它命令
 ### 查看npm registry
