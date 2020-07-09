@@ -39,7 +39,7 @@ nvm ls-remote
 ## 切换nodejs版本
 
 ```
-nvm use 8.9.4
+nvm use v8.9.4
 ```
 
 ## 安装nodejs版本
@@ -47,7 +47,7 @@ nvm use 8.9.4
 
 ### 安装10.15.3
 ```
-nvm install 10.15.3
+nvm install v10.15.3
 ```
 
 
@@ -81,10 +81,10 @@ yarn config set registry http://registry.npm.taobao.org/
 ## nodejs常用版本
 
 ```
-8.9.4
-10.15.3
-11.10.1
-12.13.0
+v8.9.4
+v10.15.3
+v11.10.1
+v12.13.0
 ```
 
 ps: 用nvm 安装node会自带npm，如果没有npm, 把当前版本删除了再安装

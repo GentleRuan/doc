@@ -8,7 +8,7 @@ npm config set registry http://nexus3.source3g.com/repository/wxbnpm/
 查看 
 
 ```
-npm config sget registry
+npm config get registry
 ```
 ![avatar](img/11.png)
 

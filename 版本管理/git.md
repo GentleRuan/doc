@@ -27,6 +27,38 @@ git commit -m feat:改动
 git push
 ```
 
+## 用于显示工作目录和暂存区的状态
+```
+git status
+```
+
+## 创建分支
+```
+git checkout -b feature-v1
+```
+
+## 切换分支
+```
+git checkout master
+
+```
+
+## 删除分支
+```
+git branch -d feature-v1
+```
+## 查看远程分支
+```
+git branch -r 
+```
+
+## 将远程主机的最新内容拉到本地
+
+```
+git fetch origin master
+
+```
+
 # 二、message规范
 
 类型|说明
