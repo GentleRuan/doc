@@ -65,6 +65,7 @@ nvm use v8.9.4
 nvm install v14.5.0
 ```
 ![avatar](img/nvm/4.png)
+
 完整的安装一定是先下载node、然后再安装npm
 
 ## 指定淘宝源
