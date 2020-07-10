@@ -159,7 +159,7 @@ git remote show origin
  git remote prune origin
 ```
 
-# 常用场景
+# 六、常用场景
 
 ## 1、服务器已有仓库，且有master分支
 ```
