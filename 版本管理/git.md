@@ -85,7 +85,8 @@ master|默认主分支，保护分支，不能push
 test|测试环境分支，保护分支，不能push
 feature|开发分支，从哪里拉出来，再合到哪里，减少冲突
 
-代码发布采用git flow的发布流程
+### 代码发布采用git flow的发布流程
+
 ![avatar](img/13.png)
 
 # 四、代码回退
