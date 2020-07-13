@@ -48,7 +48,7 @@ git remote add ssh://git@gitlab.source3g.com:10022/ftd-study/npm-privatization.g
 ```
 ## 添加到缓存区
 ```
-git add *
+git add .
 ```
 
 ## 提交改动
