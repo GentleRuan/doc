@@ -16,7 +16,7 @@ brew install nvm
 安装完后按提示修改. ~/.bash_profile
 然后执行
 ```
-. ~/.bash_profile
+source ~/.bash_profile
 ```
 
 ## 3、linux安装nvm
@@ -51,7 +51,9 @@ windows版本下不支持
 ```
 nvm ls
 ```
+
 ![avatar](img/nvm/2.png)
+
 ## 切换nodejs版本
 
 ```
@@ -142,4 +144,4 @@ ps:
 
 2、在非window环境下、安装node记得在版本前加一个v,不然会发生不可描述的事情
 
-3切换源可以用nrm来切换，[参照文档](nrm.md)
+3、切换源可以用nrm来切换，[参照文档](nrm.md)
